@@ -5,6 +5,9 @@
 #      | {"$id":"1","innerException":null,"message":"The requested operation is not allowed.","typeName":"Microsoft.TeamFoundation.Framework.Server.InvalidAccessException,
 #      | Microsoft.TeamFoundation.Framework.Server","typeKey":"InvalidAccessException","errorCode":0,"eventId":3000}
 
+# Found it
+# https://learn.microsoft.com/en-us/azure/devops/organizations/accounts/manage-personal-access-tokens-via-api?view=azure-devops
+
 param(
     [Parameter(Mandatory=$True)]
     [ValidateNotNullOrEmpty()]
