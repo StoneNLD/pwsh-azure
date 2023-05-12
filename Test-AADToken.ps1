@@ -48,13 +48,13 @@ function Connect-AzureDevicelogin {
     [cmdletbinding()]
     param( 
         [Parameter()]
-        $ClientID = '',
+        $ClientID = 'f0bada98-304c-4087-bd7d-416c7661a390',
         
         [Parameter()]
         [switch]$Interactive,
         
         [Parameter()]
-        $TenantID = '',
+        $TenantID = '2b55fa1c-0add-4120-a8e4-9987abf4d504',
         
         [Parameter()]
         $Resource = "https://graph.microsoft.com/",
@@ -145,3 +145,4 @@ function Connect-AzureDevicelogin {
         }
     }
 }
+Connect-AzureDevicelogin
